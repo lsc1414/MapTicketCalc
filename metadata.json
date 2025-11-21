@@ -1,0 +1,5 @@
+{
+  "name": "Otherworld Map Calculator",
+  "description": "A calculator for map item attributes and drop rates in ARPG games, featuring risk vs reward analysis.",
+  "requestFramePermissions": []
+}
