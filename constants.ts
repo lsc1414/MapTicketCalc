@@ -1,4 +1,5 @@
-import { Rarity, PresetAffix } from './types';
+
+import { Rarity, PresetAffix } from './types.ts';
 
 export const TIER_MULTIPLIER = 5;
 export const RARITY_MULTIPLIER = 10;

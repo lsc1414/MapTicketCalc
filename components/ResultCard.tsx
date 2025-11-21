@@ -1,7 +1,8 @@
+
 import React from 'react';
 import { TrendingUp, Diamond } from 'lucide-react';
-import { Rarity, CalculationResult } from '../types';
-import { TIER_MULTIPLIER, RARITY_MULTIPLIER, BASE_DROP_COUNT } from '../constants';
+import { Rarity, CalculationResult } from '../types.ts';
+import { TIER_MULTIPLIER, RARITY_MULTIPLIER, BASE_DROP_COUNT } from '../constants.ts';
 
 interface ResultCardProps {
   calculation: CalculationResult;

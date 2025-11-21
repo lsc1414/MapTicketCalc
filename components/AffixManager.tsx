@@ -1,7 +1,8 @@
+
 import React, { useState } from 'react';
 import { Plus, Trash2, ShieldAlert, ChevronDown, ChevronUp } from 'lucide-react';
-import { Affix, PresetAffix } from '../types';
-import { PRESET_AFFIXES } from '../constants';
+import { Affix, PresetAffix } from '../types.ts';
+import { PRESET_AFFIXES } from '../constants.ts';
 
 interface AffixManagerProps {
   activeAffixes: Affix[];

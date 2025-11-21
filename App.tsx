@@ -1,9 +1,10 @@
+
 import React, { useState, useMemo } from 'react';
 import { RefreshCw, Layers } from 'lucide-react';
-import { Affix, PresetAffix } from './types';
-import { RARITY_CONFIG, TIER_MULTIPLIER, RARITY_MULTIPLIER, BASE_DROP_COUNT } from './constants';
-import { ResultCard } from './components/ResultCard';
-import { AffixManager } from './components/AffixManager';
+import { Affix, PresetAffix } from './types.ts';
+import { RARITY_CONFIG, TIER_MULTIPLIER, RARITY_MULTIPLIER, BASE_DROP_COUNT } from './constants.ts';
+import { ResultCard } from './components/ResultCard.tsx';
+import { AffixManager } from './components/AffixManager.tsx';
 
 export default function App() {
   // --- State ---
